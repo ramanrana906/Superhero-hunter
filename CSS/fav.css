@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(120deg,red,black);
+ 
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+ 
+}
+
+.hero-container{
+    padding: 2px 16px;
+}
+
+.hero-pic img{
+    border-radius: 4px;
+    width: 100%;
+    height : 300px;
+}
+/* hero name and fav icon styles */
+.hero-details{
+cursor: pointer;
+
+}
+.hero-details:hover{
+    transform: scale(1.1);
+}
+.fas{
+    color: white
+}
+.fas:hover{
+    cursor: pointer;
+}
+
+/* details div styles */
+.wdiv{
+    width: 200px;
+    color:#FAAE7B;
+    font-family: 'Titillium Web', sans-serif;
+}

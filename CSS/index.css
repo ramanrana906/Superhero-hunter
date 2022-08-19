@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(120deg,red,black);
+ 
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+ 
+}
+
+.search-bar{
+        margin-top: 5rem;
+    width:50%;
+    transition: ease-in-out 1s;
+    
+}
+
+.search-bar:hover{
+  
+width:70%;
+
+}
+.input-group{
+    height: 70px;
+}
+
+#sr-heading
+{
+    font-size: 3rem;
+}
+
+
+.hero-pic img{
+    border: 10px solid orangered;
+    border-radius: 4px;
+    width: 250px;
+    height : 300px;
+}
+.hero-details{
+cursor: pointer;
+}
+
+.hero-details:hover{
+transform: scale(1.1);
+}
+
+/* details div styles */
+.wdiv{
+    width: 200px;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}

@@ -1,0 +1,59 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(120deg,red,black);
+ 
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+ 
+}
+
+
+.headings{
+   font-family: 'Titillium Web', sans-serif;
+   color: rgb(255, 166, 0);
+}
+
+
+/* superhero image card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+}
+  
+.hero-container{
+    padding: 6px 16px;
+}
+
+/* text styles */
+.api-data{
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color : #fff;
+}
+.key{
+    width: 35%;  
+}
+.key p{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.value{
+    width: 50%;  
+}
+.value p{
+    font-size: 16px;
+ 
+}
